@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'techvote.urls'
+ROOT_URLCONF = 'configs.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'techvote.wsgi.application'
+WSGI_APPLICATION = 'configs.wsgi.application'
 
 
 # Database
